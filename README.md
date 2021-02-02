@@ -1,5 +1,5 @@
 # Running-Jupyter-Notebook-on-Remote-Server
 Jupyter Notebook is a useful tool for shortening the feedback loop from coding and seeing the results by performing data analysis, model prototyping, and trials in an interactive way. HPC User can launch a “headless” Jupyter Notebook as a batch job in a remote HPC cluster, but can have the Graphical User Interface (GUI) in the Local user machine’s (Desktop/Laptop) web browser. This will allow the user to use the HPC compute resources and several dependent libraries installed in the cluster without the need of installing any Python packages on the local machine to run the Jupyter Notebook.
 This repo contains the following two files
-1. jupyter.sh: PBS job script for launching the Jupyter Notebook as a batch job in the cluster. This script also saves the port forrarding details in a file called port_forwarding.txt which is created when the script is run.
+1. jupyter_remote.sh: PBS job script for launching the Jupyter Notebook as a batch job in the cluster. This script also saves the port forrarding details in a file called port_forwarding.txt which is created when the script is run.
 2. Jupyter_Notebook_Remote_Run.pdf: The steps of running the Jupyter Notebook in the local machine browser from the cluster are given in this pdf.
